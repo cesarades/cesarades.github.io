@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="navbar">
+		<ul>
+			<a href="home.html" aria-label="Home" aria-selected="true">
+				<li>Home</li>
+			</a>
+			<a href="about.html" aria-label="About" aria-selected="false">
+				<li>About</li>
+			</a>
+			<a href="projects.html" aria-label="Projects" aria-selected="false">
+				<li>Projects</li>
+			</a>
+			<a href="contact.html" aria-label="Contact" aria-selected="false">
+				<li>Contact</li>
+			</a>
+		</ul>
+	</div>
+	<div id="home">
+		<div id="home-about">
+			<div id="home-bio">
+				<h1>Hi, I'm <span class="name">Cesar Ades</span></h1>
+				<p> Welcome to my website. I'm thrilled you're here. I have so much I want to share and am excited to
+					introduce you to my
+					passions and current areas of interest. If you have any questions or comments, please don't hesitate
+					to
+					get in touch.
+					Feel free to navigate and explore my site!</p>
+				<div id="links">
+					<a href="about.html" aria-label="About" class="button">Bio</a>
+					<a href="files/resume.pdf" aria-label="Resume" class="button" download>Resume</a>
+					<a href="contact.html" aria-label="Contact" class="button">Contact</a>
+				</div>
+			</div>
+		</div>
+		<div id="home-about">
+			<div id="home-bio">
+				<h1>Projects</h1>
+				<p>Check out some of my projects. For more information on them head to the projects page.</p>
+				<div class="cards">
+					<div class="card">
+						<a href="https://www.papayapapaya.com" aria-label="Project_link" target=”_blank”
+							class="card-link">
+							<div class="card-image">
+								<img src="images/papaya.png" alt="placeholder">
+							</div>
+							<div class="card-text">
+								<h2>Papaya</h2>
+								<p>Web application for volunteers and Non-profits</p>
+							</div>
+						</a>
+					</div>
+					<div class="card">
+						<a href="https://eocene698.herokuapp.com" aria-label="Project_link" target=”_blank”
+							class="card-link">
+							<div class="card-image">
+								<img src="images/eocene.png" alt="placeholder">
+							</div>
+							<div class="card-text">
+								<h2>Eocene</h2>
+								<p>Web application for renting sports equipment</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="functions.js"></script>
+</body>
+
+</html>
